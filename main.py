@@ -923,11 +923,11 @@ async def txt_handler(bot: Client, m: Message):
     f"**📥 Extracted By : {CR}**\n"
 )
                 cc1 = (
-    f"╭━━━━━━━━━━━╮\n🌟 {topic_heading}\n╰━━━━━━━━━━━╯\n\n"
-    f"**📁 FILE ID :** {str(count).zfill(3)} \n\n"
-    f"**📄 Title : {name1}** ᴍʀꜱᴛʀᴀɴɢᴇʀ™.pdf\n\n"
-    f"**🔖 Batch :** `{b_name}`\n\n"
-    f"**📥 Extracted By : {CR}**\n"
+    f"**Index: {str(count).zfill(3)}\n\n**"
+    f"**Title: {name1}**\n\n"
+    f"**Topic: Reasoning**\n\n"
+    f"**Batch: {b_name}\n\n**"
+    f"**Powered By: {CR}**\n"
 )
                 cczip = f'[📁]Zip Id : {str(count).zfill(3)}\n**Zip Title :** `{name1} .zip`\n<blockquote><b>Batch Name :</b> {b_name}</blockquote>\n\n**Extracted by➤**{CR}\n' 
                 ccimg = (
